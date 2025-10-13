@@ -1,6 +1,5 @@
 # Fórum ODS - Web App de Discussão Sustentável
 
-![ODS Logo](https://i.imgur.com/33H442y.png)
 
 Um web app mobile-first estilo fórum, dedicado à discussão, colaboração e divulgação de projetos relacionados aos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
 
