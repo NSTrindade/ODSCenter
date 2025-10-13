@@ -77,42 +77,6 @@ Este projeto será desenvolvido em sprints semanais, focando em entregar valor a
 
 ---
 
-### **Semana 2: API de Conteúdo e Conexão com Frontend**
-
-**Objetivo:** Desenvolver os endpoints para gerenciar o conteúdo do fórum e iniciar a estrutura do frontend, conectando a autenticação.
-
-#### Tarefas:
-1.  **Desenvolver Endpoints CRUD para Tópicos e Respostas:**
-    -   `POST /api/topicos`: Criar um novo tópico (rota protegida).
-    -   `GET /api/topicos/ods/:numero`: Listar todos os tópicos de um ODS específico.
-    -   `GET /api/topicos/:id`: Buscar um tópico específico com todas as suas respostas.
-    -   `POST /api/respostas`: Adicionar uma nova resposta a um tópico (rota protegida).
-    -   **Código de Exemplo (Rota em Express):**
-        ```javascript
-        // Em /routes/topicos.js
-        const express = require('express');
-        const router = express.Router();
-        const authMiddleware = require('../middleware/auth'); // Middleware que verifica o JWT
-        const topicosController = require('../controllers/topicosController');
-
-        // Criar um novo tópico
-        router.post('/', authMiddleware, topicosController.criarTopico);
-
-        // Listar tópicos por ODS
-        router.get('/ods/:numero', topicosController.listarPorODS);
-
-        module.exports = router;
-        ```
-
-2.  **Configurar o Projeto Frontend (React):**
-    -   Criar o app com Vite: `npm create vite@latest meu-forum-ods -- --template react`.
-    -   Instalar `axios` para requisições HTTP e `react-router-dom` para navegação.
-
-3.  **Criar Páginas de Autenticação no Frontend:**
-    -   Desenvolver os formulários de Login e Cadastro.
-    -   Implementar a lógica para chamar a API, salvar o token JWT no `localStorage` e redirecionar o usuário após o login.
-
----
 
 ### **Semana 3: Construindo a Experiência do Fórum (UI)**
 
