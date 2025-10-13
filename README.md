@@ -1,6 +1,5 @@
 # ODS CENTER - Fórum Mobile
 
-![Banner ODS](https://i.imgur.com/33H442y.png)
 
 *Repositório do projeto de desenvolvimento de um aplicativo mobile nativo para Android, focado na divulgação e colaboração em projetos sobre os Objetivos de Desenvolvimento Sustentável (ODS) da ONU.*
 
