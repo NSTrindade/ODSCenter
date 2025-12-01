@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnCadastrar
+id btnLogin
+id btnSair
+id editEmail
+id editSenha
+id main
+id txtBoasVindas
+layout activity_home
+layout activity_login
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.ODSCenter
+style Theme.ODSCenter
+xml backup_rules
+xml data_extraction_rules

@@ -46,10 +46,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    // Retrofit para fazer as chamadas de rede (API)
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    // Gson para converter objetos Kotlin em JSON e vice-versa
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
     // Coroutines para trabalhar com tarefas em segundo plano (essencial para rede)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
