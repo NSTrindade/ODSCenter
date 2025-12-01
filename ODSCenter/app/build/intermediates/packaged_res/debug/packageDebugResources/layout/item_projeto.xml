@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtTituloProjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título do Projeto"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtOdsProjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ODS 4: Educação de Qualidade"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#009688"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/txtDescricaoProjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição curta do projeto vai aqui..."
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtAutorProjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por: Autor do Projeto"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

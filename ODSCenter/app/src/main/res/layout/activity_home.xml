@@ -3,31 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp">
+    android:padding="16dp"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/txtBoasVindas"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bem-vindo!"
-        android:textSize="28sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:textAlignment="center"/>
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnNovoProjeto"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aqui ficará o Feed de Projetos ODS"
-        android:textSize="18sp"
-        android:layout_marginTop="16dp"/>
+        android:text="+ Novo Projeto"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProjetos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
 
     <Button
         android:id="@+id/btnSair"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sair (Logout)"
-        android:layout_marginTop="48dp"
-        android:backgroundTint="#D32F2F"/>
+        android:text="Sair"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginTop="8dp"/>
 
 </LinearLayout>

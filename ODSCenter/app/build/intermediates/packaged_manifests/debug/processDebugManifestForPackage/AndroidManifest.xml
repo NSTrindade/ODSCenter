@@ -37,6 +37,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.odscenter.HomeActivity" />
+        <activity android:name="com.example.odscenter.CriarProjetoActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

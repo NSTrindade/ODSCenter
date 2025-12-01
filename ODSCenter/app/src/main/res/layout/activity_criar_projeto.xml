@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Projeto ODS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título do Projeto"/>
+
+    <EditText
+        android:id="@+id/editOds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número da ODS (ex: 4)"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição detalhada..."
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:gravity="top"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSalvarProjeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publicar Projeto"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+</LinearLayout>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Veloso\.gradle\caches\8.10.2\transforms\cc1cca48d097a01b97782891f34a6c57\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Veloso\.gradle\caches\8.10.2\transforms\4d096a2f60d43e24964903b700236f08\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Veloso\.gradle\caches\8.10.2\transforms\0e713d9a4ac8c84ea422dce759a871b4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -57,8 +57,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Veloso\
 	xmlns:android
 		ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:5:5-27:19
-INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:5:5-29:19
+INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:5:5-29:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Veloso\.gradle\caches\8.10.2\transforms\cc1cca48d097a01b97782891f34a6c57\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Veloso\.gradle\caches\8.10.2\transforms\cc1cca48d097a01b97782891f34a6c57\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Veloso\.gradle\caches\8.10.2\transforms\4d096a2f60d43e24964903b700236f08\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -117,6 +117,10 @@ activity#com.example.odscenter.HomeActivity
 ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:25:9-50
 	android:name
 		ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:25:19-47
+activity#com.example.odscenter.CriarProjetoActivity
+ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:27:9-58
+	android:name
+		ADDED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml:27:19-55
 uses-sdk
 INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Projetos\Kotlin\ODSCenter\ODSCenter\app\src\main\AndroidManifest.xml
